@@ -75,6 +75,7 @@ export default function App() {
   const cursorDotRef = useRef<HTMLDivElement | null>(null);
   const cursorRingRef = useRef<HTMLDivElement | null>(null);
   const videoOverlayRef = useRef<HTMLDivElement | null>(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
 
   // ---- REVIEWS DATA ----
   const reviews: Review[] = [
@@ -131,6 +132,15 @@ export default function App() {
       } catch (e) {
         console.error('Failed to parse saved booking', e);
       }
+    }
+  }, []);
+
+  // Force autoplay for the background video on mount
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(err => {
+        console.warn("Force autoplay was prevented or delayed:", err);
+      });
     }
   }, []);
 
@@ -537,6 +547,7 @@ export default function App() {
         {/* Background Video Container */}
         <div className="absolute inset-0 w-full h-full z-0 overflow-hidden select-none">
           <video
+            ref={videoRef}
             autoPlay
             loop
             muted

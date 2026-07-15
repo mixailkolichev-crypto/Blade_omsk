@@ -13,63 +13,63 @@ interface GalleryItem {
 const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 1,
-    src: '/src/assets/images/blade_gallery_1_1784112922822.jpg',
+    src: '/assets/images/blade_gallery_1_1784112922822.jpg',
     title: 'Дымная Эстетика',
     tag: 'Кальяны',
     description: 'Индивидуальные вкусовые профили на дизайнерских аппаратах.'
   },
   {
     id: 2,
-    src: '/src/assets/images/blade_gallery_2_1784112936790.jpg',
+    src: '/assets/images/blade_gallery_2_1784112936790.jpg',
     title: 'Премиум Лаунж',
     tag: 'Интерьер',
     description: 'Зоны уединения с мягкими диванами и приглушенным неоном.'
   },
   {
     id: 3,
-    src: '/src/assets/images/blade_gallery_3_1784112950434.jpg',
+    src: '/assets/images/blade_gallery_3_1784112950434.jpg',
     title: 'Blade Glow',
     tag: 'Бар',
     description: 'Фирменный неоновый коктейль на лавандовом джине.'
   },
   {
     id: 4,
-    src: '/src/assets/images/blade_gallery_4_1784112960930.jpg',
+    src: '/assets/images/blade_gallery_4_1784112960930.jpg',
     title: 'Gourmet Рибай',
     tag: 'Кухня',
     description: 'Премиальный стейк сухой выдержки с перечным соусом.'
   },
   {
     id: 5,
-    src: '/src/assets/images/blade_gallery_5_1784112974787.jpg',
+    src: '/assets/images/blade_gallery_5_1784112974787.jpg',
     title: 'Чайная Церемония',
     tag: 'Чай',
     description: 'Элитные китайские чаи, заваренные проливом.'
   },
   {
     id: 6,
-    src: '/src/assets/images/blade_gallery_6_1784112985965.jpg',
+    src: '/assets/images/blade_gallery_6_1784112985965.jpg',
     title: 'Жар и Уголь',
     tag: 'Кальяны',
     description: 'Ювелирный температурный контроль для идеального дыма.'
   },
   {
     id: 7,
-    src: '/src/assets/images/blade_gallery_7_1784112997756.jpg',
+    src: '/assets/images/blade_gallery_7_1784112997756.jpg',
     title: 'Double Burger',
     tag: 'Кухня',
     description: 'Сочная мраморная говядина и тающий чеддер.'
   },
   {
     id: 8,
-    src: '/src/assets/images/blade_gallery_8_1784113010464.jpg',
+    src: '/assets/images/blade_gallery_8_1784113010464.jpg',
     title: 'Эксклюзивные Кальяны',
     tag: 'Кальяны',
     description: 'Авторский модельный ряд от бренда BLADE.'
   },
   {
     id: 9,
-    src: '/src/assets/images/blade_gallery_9_1784113024651.jpg',
+    src: '/assets/images/blade_gallery_9_1784113024651.jpg',
     title: 'Элитный Бар',
     tag: 'Бар',
     description: 'Коллекционный алкоголь с кристальными сферами льда.'
